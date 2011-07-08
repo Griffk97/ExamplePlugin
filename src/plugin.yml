@@ -1,0 +1,11 @@
+name: ExamplePlugin #name of plugin
+main: your.namespace.here.MyPluginNameCore #Path to your main java file(extends JavaPlugin). its namespace.className
+version: 0.1 #version
+author: tips48 #author
+commands: #commands for the plugin
+  hello: #name of command
+    description: Say hello!
+  anothercommand:
+    description: another test command
+  console:
+    description: console only!
